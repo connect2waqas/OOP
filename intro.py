@@ -3,7 +3,15 @@ class Student():
         self.name = name
         self.marks = marks
     
+    @staticmethod
+    def hello():
+        print("Welcome!")
+
+    def inner(self):
+        print("We are calling the staticmethod")
+        print(self.hello())
 s1= Student("waqas",87)
+print(s1.inner())
 # print(s1.name,s1.marks)
 
 class Car():
