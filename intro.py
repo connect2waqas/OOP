@@ -16,6 +16,8 @@ class CMS():
     def upgrade_semester(self,new_semester):
         self.semester = new_semester
         return f"Your are promoted to semester: {self.semester}"
+    
+    
     @classmethod
     def welcome(cls):
         return f"Welcome to {CMS.University_name}"
