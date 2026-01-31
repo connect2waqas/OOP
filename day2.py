@@ -43,7 +43,6 @@ class SavingAccount(BankAccount):
         else:
             current_amount += amount
         return current_amount
-
 acc1 = BankAccount(2342,"waqas khan",9000)
 acc2 = BankAccount.create_accounts("Ilyas",90000)
 print(acc2.account_holder,acc2.account_number,acc2.balance)
