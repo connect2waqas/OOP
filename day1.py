@@ -13,8 +13,8 @@ class Student(Person):
         self.roll_no = roll_no
         self.marks = marks
         # self.grade = grade
-    def grade(self):
-        if 90 < self.marks <= 100:
+    def calculate_grade(self):
+        if 90 <= self.marks <= 100:
             return "A"
         elif 80 < self.marks <= 90:
             return "B"
@@ -23,7 +23,7 @@ class Student(Person):
         else:
             return "D"
     def display_info(self):
-        grad = self.grade()
+        grad = self.calculate_grade()
         return f"Name: {self.name}, Roll no: {self.roll_no}, Grade: {grad}"
 class Teacher(Person):
     def __init__(self, name, age, address, employee_id, subject, salary):
@@ -31,7 +31,7 @@ class Teacher(Person):
         self.employee_id = employee_id
         self.subject = subject
         self.salary = salary
-    def give_assignment():
+    def give_assignment(self):
         print("this is your assignments")
 
     def display(self):
