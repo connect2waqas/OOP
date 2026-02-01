@@ -38,11 +38,8 @@ employees = [
     PartTimeEmployee("Ilyas khan","F2020",4000,8),
     Contractor("Bashir","F4242",200000,0.15)
 ]
-
 # Process payroll - THIS IS POLYMORPHISM IN ACTION!
-
 print("\n Payroll processing:")
-
 total_payroll = 0
 for emp in employees:
     salary = emp.calculate_salary()
