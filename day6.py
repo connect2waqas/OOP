@@ -3,11 +3,11 @@ class Vector1:
         self.x = x
         self.y = y
     def __add__(self, other):
-        if isinstance(other,Vector):
+        if isinstance(other,Vector1):
             return Vector1(self.x + other.x , self.y + other.y)
         raise TypeError("Can only add vector to vector")
     def __sub__(self, other):
-        if isinstance(other,Vector):
+        if isinstance(other,Vector1):
             return Vector1(self.x - other.x , self.y - other.y)
         raise TypeError("Can only substract vector from vector")
     def __mul__(self, scalar):
