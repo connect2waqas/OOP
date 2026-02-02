@@ -5,7 +5,6 @@ class Vehicle:
         self.brand = brand
         self.model= model
     def calculate_rental_cost(self,days):
-        """Override in the child classes"""
         return 0
     def vehicle_info(self):
         return f"{self.brand} {self.model} (ID: {self.vehicale_id})"
@@ -14,7 +13,6 @@ class Car(Vehicle):
         super().__init__(vehicale_id, brand, model)
         self.daily_rate = daily_rate
     def calculate_rental_cost(self, days):
-        """Cars charged by day"""
         return self.daily_rate * days
 class Motorcycle(Vehicle):
     def __init__(self, vehicale_id, brand, model, hourly_rate):
