@@ -43,6 +43,18 @@ python lab3/Robot.py
 
 > Tip: If you have both `python` and `python3`, use whichever matches your setup.
 
+## Topics covered
+
+A few things this repo touches (with small, runnable examples):
+
+- Classes & objects
+- Inheritance (`super()`)
+- Method overriding
+- Polymorphism (including duck typing)
+- Class variables, `@classmethod`, `@staticmethod`
+- Operator overloading (magic methods like `__add__`)
+- Nested functions, closures, and decorators (see `lab3/nested_functions_tutorial.py`)
+
 ## Notes
 
 - This repo is for learning, so some code is intentionally straightforward (and some files may be a bit messy while I’m experimenting).
