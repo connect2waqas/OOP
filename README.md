@@ -1,58 +1,53 @@
-# OOP Project
+# OOP (Python) — practice repo
 
-## Overview
-This project is designed to explore the concepts of Object-Oriented Programming (OOP) through practical examples and implementations. It provides a user-friendly interface and lays out clear explanations of key OOP principles.
+This repository is basically my OOP practice notebook — but in code.
 
-## Features
-- Class and Object Creation
-- Inheritance
-- Polymorphism
-- Encapsulation
-- Abstraction
+It’s a collection of small Python scripts I wrote while learning / revising Object-Oriented Programming concepts (and a few general Python topics from labs/lectures). The files are intentionally simple and focused, so it’s easy to open one, run it, and see what’s going on.
 
-## Getting Started
-To get started with this project, clone the repository and install the required dependencies:
+## Tech stack
+
+- **Language:** Python
+
+## What’s inside (quick map)
+
+### Top-level practice files
+
+- **`day1.py`** — basic classes + inheritance (`Person`, `Student`, `Teacher`) and a simple grade calculation.
+- **`day2.py`** — a mini banking example using class variables, `@classmethod`, `@staticmethod`, plus a `SavingAccount` subclass.
+- **`day3.py`** — polymorphism examples (functions, method overriding, operator overloading, duck typing, and a small payment example).
+- **`day4.py`** — inheritance + polymorphism via an employee payroll example (`FullTimeEmployee`, `PartTimeEmployee`, `Contractor`).
+- **`day5.py`** — vehicle rental example (base `Vehicle` class with `Car`, `Motorcycle`, `Truck` subclasses).
+- **`day6.py`** — operator overloading using a simple 2D vector class (`__add__`, `__sub__`, `__sub__`, `__mul__`, `__truediv__`).
+- **`day7.py`** — currently empty / placeholder.
+
+### Labs
+
+- **`lab3/`** — small practice tasks and mini-programs (ATM withdrawal, shopping cart, robot, calculator, student/user profile systems, etc.).
+  - A bigger file here is **`lab3/nested_functions_tutorial.py`**, which is a detailed walkthrough of nested functions, closures, decorators, and common mistakes.
+
+### Lectures
+
+- **`lecture2/code.py`** — basic task-style practice (grading + simple inventory total calculation).
+- **`lecture3/code.py`** — a cleaner grading example using `zip()`.
+
+## How to run
+
+You can run any file directly with Python.
 
 ```bash
-git clone https://github.com/connect2waqas/OOP.git
-cd OOP
+# Example:
+python day1.py
+python day3.py
+python lab3/Robot.py
 ```
 
-## Folder Structure
-```
-OOP/
-├── src/               # Source files
-├── tests/             # Unit tests
-├── docs/              # Documentation
-└── README.md          # Project description
-```
+> Tip: If you have both `python` and `python3`, use whichever matches your setup.
 
-## How to Run
-This project can be run using the following command:
+## Notes
 
-```bash
-python src/main.py
-```
-
-## Examples
-Here is a simple example of a class:
-
-```python
-class Animal:
-    def __init__(self, name):
-        self.name = name
-
-    def speak(self):
-        print(f'{self.name} makes a sound')
-```
-
-## Contribution Guidelines
-We welcome contributions to this project! Please follow these steps:
-1. Fork the repository.
-2. Create a new branch for your feature: `git checkout -b feature/YourFeature`
-3. Make your changes and commit them: `git commit -m 'Add new feature'`
-4. Push to the branch: `git push origin feature/YourFeature`
-5. Create a new Pull Request.
+- This repo is for learning, so some code is intentionally straightforward (and some files may be a bit messy while I’m experimenting).
+- If you notice a bug or want to suggest a cleaner approach, feel free to open an issue or PR.
 
 ## License
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
+
+No license has been added yet. If you plan to reuse or share this more broadly, adding a license (like MIT) would be a good next step.
