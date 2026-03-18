@@ -39,7 +39,7 @@ student_1 = Result_Mangnment_system("waqas Ahmad", 1020)
 student_1_marks = [90,89,90]
 student_1.add_marks(student_1_marks)
 print(student_1)
-print("==================================== Task 2 =====================================")
+print("==================================== student 2 =====================================")
 student_2 = Result_Mangnment_system("Ilyas khan",2300)
 student_2_marks = [87,89,32]
 student_2.add_marks(student_1_marks)
