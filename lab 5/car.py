@@ -10,8 +10,6 @@ class Car:
         return self.speed
     def __str__(self):
         return (f"Car : {self.brand}\n"
-                f"Speed: {self.speed}km\n"
-                f"Accalarate: {self.accelarate(59)}\n"
-                f"Brake: {self.brake(50)}")
+                f"Speed: {self.speed}km")
 car_1 = Car("Toyota",200)
 print(car_1)

@@ -18,7 +18,6 @@ class BankAccount:
     def __str__(self):
         return (f"Name : {self.name}\n"
                 f"Balance: {self.balance}\n"
-                f"withdrwal balance: {self.withdrawl(1000)}\n"
                 f"check balance: {self.check_balance()}")
 account_1 = BankAccount("waqas",40000)
 print(account_1)

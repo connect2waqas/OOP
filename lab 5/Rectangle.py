@@ -6,7 +6,7 @@ class Rectangle:
         self.area = self.length * self.width
         return self.area
     def perimeter_of_rectangle(self):
-        self.perimeter = 2 * (self.Area_of_rectangle())
+        self.perimeter = 2 * (self.length + self.width)
         return self.perimeter
 rectangle_1 = Rectangle(5,6)
 Rectangle_2 = Rectangle(9,8)

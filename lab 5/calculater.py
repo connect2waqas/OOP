@@ -13,12 +13,14 @@ class Calculator:
         if self.operand_2 != 0:
             return self.operand_1 / self.operand_2
         else:
-            print(f"Denomerater should not be zero: {self.operand_2}")
+            return None
     def __str__(self):
+        division = self.divide()
+        division_text = f"{division:.2f}" if division is not None else "undefined (division by zero)"
         return (f"Addition: {self.add()}\n"
                 f"substraction: {self.substrate()}\n"
                 f"Multiplication: {self.multiply()}\n"
-                f"Division: {self.divide():.2f}"
+                f"Division: {division_text}"
                 )
 division = Calculator(2,3)
 print(division)

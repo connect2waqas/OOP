@@ -13,7 +13,7 @@ class Employee:
     def __str__(self):
         return (f"Name: {self.name}\n"
                 f"Current salary: {self.salary}\n"
-                f"Increase in salary: {self.salary_increase(20)}"
+            f"Increase in salary: call salary_increase(percent)"
         )
 employee_1 = Employee("waqas", 40000)
 print(employee_1)
