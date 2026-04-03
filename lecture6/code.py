@@ -19,7 +19,7 @@ tup_1 , tup_2  = tuple(1,), tuple(2,3,4,)
 
 class Atm:
     def __init__(self):
-        self.pin = ''
+        self.pin = '1234'
         self.balance = 0
         self.limit = 4000
         self.menu()
@@ -46,25 +46,34 @@ class Atm:
         user_pin = input("Enter Your pin: ")
         self.pin = user_pin
         print("Your pin is set now")
+        self.menu()
     def change_pin(self):
         user_pin = input("Enter Your old pin: ")
         if user_pin == self.pin:
             new_pin = input("Enter Your new pin: ")
             self.pin = new_pin
-            print("Pin is updated...")
+            print("Pin changed successfully...")
+            self.menu()
         else:
             print("Wrong pin")
+            self.menu()
     def check_balance(self):
         user_pin = input("Enter Your pin")
         if user_pin == self.pin:
             print(f"Balance: {self.balance}")
+            self.menu()
         else:
             print(f"Wrong pin: {user_pin}")
-    def withdraw(self, amount):
+            self.menu()
+    def withdraw(self):
+        amount = int(input("Enter amount: "))
         user_pin = input("Enter Your Pin: ")
         if user_pin == self.pin and (amount > 0 and amount < self.limit):
             self.balance -= amount
+            print(f"{amount} withdraw successfully")
+            self.menu()
         else:
             print("wrong pin or amount or insufficient balance")
+            self.menu()
 
 obj_1 = Atm()
