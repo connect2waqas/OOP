@@ -30,7 +30,6 @@ class Library:
             self.all_issued_books.append(book)
         else:
             print(f"{book} with such auther {auther} is not avialable")
-        return self.all_issued_books, self.all_books
     def returning_book(self, book):
         self.all_books.extend(book)
 b_1 = Book("Python basics","Waqas")
