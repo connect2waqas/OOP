@@ -21,6 +21,7 @@ class Atm:
     def __init__(self):
         self.pin = ''
         self.balance = 0
+        self.limit = 4000
         self.menu()
 
     def menu(self):
@@ -38,7 +39,7 @@ class Atm:
         elif user_input == "3":
             self.check_balance()
         elif user_input == "4":
-            pass
+            self.withdraw()
         else:
             exit()
     def create_pin(self):
@@ -59,4 +60,11 @@ class Atm:
             print(f"Balance: {self.balance}")
         else:
             print(f"Wrong pin: {user_pin}")
+    def withdraw(self, amount):
+        user_pin = input("Enter Your Pin: ")
+        if user_pin == self.pin and (amount > 0 and amount < self.limit):
+            self.balance -= amount
+        else:
+            print("wrong pin or amount or insufficient balance")
+
 obj_1 = Atm()
