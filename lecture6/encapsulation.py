@@ -27,3 +27,32 @@ p = Person("waqas",23)
 print(id(p))
 x = greet(p)
 print(id(x))
+
+class Atm:
+    
+    def __init__(self, pin, balance):
+        self.pin = pin
+        self.__balance = balance
+    
+    def get_balance(self):
+        pin = int(input("Enter pin: "))
+        if pin == self.pin:
+            print(self.__balance)
+        else:
+            print("Wrong pin")
+    def deposit(self, amount):
+        pin = int(input("Enter pin: "))
+        if self.change_pin(pin) and amount > 0:
+            self.__balance += amount
+        else:
+            print("Wrong pin or amount")
+    def check_pin(self,pin):
+        return True if pin == self.pin else False
+    def change_pin(self):
+        pin = int(input("Enter pin:"))
+        if self.check_pin(pin):
+            self.pin = pin
+        else:
+            print("Wrong pin")
+
+b = Atm(1234,9000)
