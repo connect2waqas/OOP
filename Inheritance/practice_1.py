@@ -58,7 +58,7 @@ class SmartPhone(Phone):
 
 phone = SmartPhone(4000,"Iphone","15px")
 phone.buy()
-"""
+
 class Person:
     def __init__(self, name, gender, age, profession):
         self.name = name
@@ -76,9 +76,10 @@ class User(Person):
 
 doctor = User("waqas","male",23,"Doctor",5000)
 
-"""We can not call super() outside the class and can only be called when we in child class unless we will get attribute error"""
+We can not call super() outside the class and can only be called when we in child class unless we will get attribute error"""
 
 # doctor.super() 
+"""
 class Parent:
     def __init__(self, num):
         self.__num = num
@@ -96,4 +97,24 @@ class Child(Parent):
 
 son = Child(500,1000)
 print(son.get_num())
-print(son.get_val())
+print(son.get_val())"""
+
+class Parent:
+    def __init__(self):
+        print("inside parent constructor.")
+        self.num = 200
+
+class Child(Parent):
+    def __init__(self):
+        print("inside child constructor.")
+        super().__init__()
+        print("inside child constructor.")
+        self.val = 100
+        
+    
+    def get_num(self):
+        print(self.num)
+        print(self.val)
+
+son = Child()
+son.get_num()
