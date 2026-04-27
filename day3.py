@@ -230,4 +230,4 @@ for payment in payments:
     process_payment(payment, 100)
 print()
 
-print("✓ Polymorphism Lesson Complete!")
+print("This was polymorpism")
