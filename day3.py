@@ -1,5 +1,4 @@
 """
-POLYMORPHISM IN PYTHON - COMPLETE GUIDE ===> I HAVE CREATED FROM AI JUST FOR UNDERSTANDING TYPES OF POLYMORPHISM:
 ===============================================================================================================
 Polymorphism means "many forms" - it allows us to use the same interface for different data types.
 """
