@@ -271,8 +271,4 @@ For questions or clarifications about the material, feel free to check the comme
 
 This repository is open source and available for educational purposes.
 
-
-
-**Happy Learning! **
-
 *Best of luck (thank you)*
