@@ -1,5 +1,4 @@
 """
-===============================================================================================================
 Polymorphism means "many forms" - it allows us to use the same interface for different data types.
 """
 
