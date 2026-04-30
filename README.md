@@ -2,13 +2,13 @@
 
 Welcome to the **OOP Learning Repository**! This is a comprehensive collection of Python Object-Oriented Programming concepts, examples, and practical exercises designed for students learning OOP fundamentals.
 
-## 📚 Repository Overview
+## Repository Overview
 
 This repository contains structured learning materials covering core OOP principles including **Inheritance**, **Polymorphism**, **Encapsulation**, and practical applications. All materials are written in **Python** and include both theoretical examples and hands-on lab exercises.
 
 ---
 
-## 🗂️ Directory Structure
+# Directory Structure
 
 ### **Daily Learning Lessons**
 - **`day1.py`** - Inheritance Basics
@@ -82,7 +82,7 @@ Final lab exercises and comprehensive projects
 
 ---
 
-## 🎯 Key OOP Concepts Covered
+## Key OOP Concepts Covered
 
 ### 1. **Inheritance** (Day 1)
 Learn how to create class hierarchies and reuse code through parent-child relationships.
@@ -141,7 +141,7 @@ Each lab folder contains real-world applications:
 
 ---
 
-## 🚀 Getting Started
+## Getting Started
 
 ### Prerequisites
 - Python 3.x installed on your system
@@ -173,9 +173,8 @@ Each lab folder contains real-world applications:
 6. Challenge yourself with `/lab4` and `/lab5`
 7. Review lecture materials in `/lecture*` folders
 
----
 
-## 💡 Learning Highlights
+##  Learning Highlights
 
 ### Day 1: Inheritance Foundation
 - Parent-child class relationships
@@ -200,9 +199,9 @@ Hands-on exercises including:
 - Educational systems (students, grades, IDs)
 - Utility programs (calculators, converters, billing)
 
----
 
-## 📖 Topics by Difficulty Level
+
+##  Topics by Difficulty Level
 
 **Beginner:**
 - `day1.py` - Basic inheritance
@@ -220,19 +219,18 @@ Hands-on exercises including:
 - `lab3/nested_functions_tutorial.py` - Advanced scoping
 - `/lab4` and `/lab5` - Complex projects
 
----
 
-## 🔍 File Details
 
-### Core Learning Files
-| File | Size | Topic |
-|------|------|-------|
-| day1.py | 1.59 KB | Inheritance |
-| day2.py | 1.98 KB | Intermediate OOP |
-| day3.py | 5.96 KB | Polymorphism |
-| day4.py | 1.84 KB | OOP Patterns |
-| day5.py | 1.69 KB | Applications |
-| day6.py | 1.28 KB | Advanced Topics |
+##  File Details
+
+### Core Learning Files:
+| File    |   Topic |
+| day1.py |  Inheritance |
+| day2.py |  Intermediate OOP |
+| day3.py | Polymorphism |
+| day4.py | OOP Patterns |
+| day5.py | Applications |
+| day6.py | Advanced Topics |
 
 ### Encapsulation Materials
 | File | Focus |
@@ -241,40 +239,36 @@ Hands-on exercises including:
 | practice_2.py | Intermediate Encapsulation |
 | pipeline.py | Advanced Pipeline Pattern |
 
----
 
-## 📝 Notes
+
+##  Notes
 
 - All code examples follow Python 3.x syntax
 - Comments are provided to explain key concepts
 - Real-world scenarios are used throughout for better understanding
 - Each lab folder contains independent exercises that can be worked on separately
 
----
 
-## 🎓 Educational Goals
+
+##  Educational Goals
 
 By working through this repository, you will:
-✅ Master the four pillars of OOP: Inheritance, Polymorphism, Encapsulation, Abstraction  
-✅ Understand real-world applications of OOP principles  
-✅ Write clean, maintainable, object-oriented code  
-✅ Solve practical programming problems using OOP  
-✅ Build confidence in Python programming  
+=> Master the four pillars of OOP: Inheritance, Polymorphism, Encapsulation, Abstraction  
+=> Understand real-world applications of OOP principles  
+=> Write clean, maintainable, object-oriented code  
+=> Solve practical programming problems using OOP  
+=> Build confidence in Python programming  
 
----
 
-## 📞 Support
+
+## Support
 
 For questions or clarifications about the material, feel free to check the comments in the code or create an issue in the repository.
 
----
 
-## 📄 License
+
+##  License
 
 This repository is open source and available for educational purposes.
 
----
-
-**Happy Learning! 🚀**
-
-*Keep coding, keep learning!*
+*Best of luck (thank you)*

@@ -1,6 +1,4 @@
 """
-POLYMORPHISM IN PYTHON - COMPLETE GUIDE ===> I HAVE CREATED FROM AI JUST FOR UNDERSTANDING TYPES OF POLYMORPHISM:
-===============================================================================================================
 Polymorphism means "many forms" - it allows us to use the same interface for different data types.
 """
 
@@ -232,4 +230,4 @@ for payment in payments:
     process_payment(payment, 100)
 print()
 
-print("✓ Polymorphism Lesson Complete!")
+print("This was polymorpism")
