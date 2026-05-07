@@ -9,7 +9,6 @@ class Payment(ABC):
         pass
 
 class CreditCardPayment(Payment):
-    # Fixed: __init__ instead of __int__
     def __init__(self, transaction_id, user_name, balance):
         self.transaction_id = transaction_id
         self.user_name = user_name
