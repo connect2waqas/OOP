@@ -4,7 +4,7 @@ Welcome to the **OOP Learning Repository**! This is a comprehensive collection o
 
 ## Repository Overview
 
-This repository contains structured learning materials covering core OOP principles including **Inheritance**, **Polymorphism**, **Encapsulation**, and practical applications. All materials are written in **Python** and include both theoretical examples and hands-on lab exercises.
+This repository contains structured learning materials covering core OOP principles, including **Inheritance**, **Polymorphism**, **Encapsulation**, and practical applications. All materials are written in **Python** and include both theoretical examples and hands-on lab exercises.
 
 ---
 
@@ -39,15 +39,15 @@ This repository contains structured learning materials covering core OOP princip
 
 - **`day7.py`** - Review and Practice
 
-### **Encapsulation Folder** (`/Encapsulation`)
+### **Encapsulation:
 Deep dive into encapsulation - one of the four pillars of OOP:
 - **`pipeline.py`** - Pipeline processing with encapsulation
 - **`practice_1.py`** - Basic encapsulation exercises
 - **`practice_2.py`** - Intermediate encapsulation exercises
 
-### **Laboratory Exercises**
+### **Labs Exercises**
 
-#### **Lab 3** (`/lab3`)
+#### **Lab 3**
 Comprehensive collection of practical exercises:
 - **`Atm_withdrwal.py`** - ATM withdrawal system
 - **`Robot.py`** - Robot class implementation
@@ -68,10 +68,10 @@ Comprehensive collection of practical exercises:
 - **`temprature_converter.py`** - Temperature conversion utility
 - **`user_profile_system.py`** - User profile management
 
-#### **Lab 4** (`/lab4`)
+#### **Lab 4**
 Advanced practice problems and projects
 
-#### **Lab 5** (`/lab5`)
+#### **Lab 5**
 Final lab exercises and comprehensive projects
 
 ### **Lecture Materials**
