@@ -182,7 +182,7 @@ Each lab folder contains real-world applications:
 - Method overriding
 - Real example: Person → Student/Teacher hierarchy
 
-### Day 3: Polymorphism Mastery
+### Polymorphism Mastery
 Complete guide with 7 types of polymorphism:
 1. Basic function polymorphism
 2. Built-in polymorphic functions
@@ -243,10 +243,10 @@ Hands-on exercises including:
 
 ##  Notes
 
-- All code examples follow Python 3.x syntax
-- Comments are provided to explain key concepts
-- Real-world scenarios are used throughout for better understanding
-- Each lab folder contains independent exercises that can be worked on separately
+==> All code examples follow Python 3.x syntax
+==> Comments are provided to explain key concepts
+==> Real-world scenarios are used throughout for better understanding
+==> Each lab folder contains independent exercises that can be worked on separately
 
 
 
@@ -266,8 +266,7 @@ By working through this repository, you will:
 For questions or clarifications about the material, feel free to check the comments in the code or create an issue in the repository.
 
 
-
-##  License
+##  License:
 
 This repository is open source and available for educational purposes.
 
